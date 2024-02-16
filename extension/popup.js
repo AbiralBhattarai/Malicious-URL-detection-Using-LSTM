@@ -10,7 +10,7 @@
         chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
           var currentUrlText = tabs[0].url;
           currentUrl.textContent = currentUrlText;
-          console.log('URL:', currentUrlText); // Log the URL to console
+          console.log(currentUrlText); // Log the URL to console
         });
       } else {
         urlLabel.style.display = "none";

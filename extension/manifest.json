@@ -9,7 +9,7 @@
       "activeTab"
     ],
     "background": {
-      "scripts": ["popup.js"],
+      "scripts": ["background.js"],
       "persistent": false
     },
     "browser_action": {
@@ -27,3 +27,4 @@
     },
     "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
   }
+  
